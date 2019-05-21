@@ -24,6 +24,7 @@ ExtentReport - api to generate reports
 
 
 Project Details:
+Pre-requisite: Make sure to update your eclipse workspace to JRE (java SE 8[1.8.0]) to avoid any webdriver error on page class.
 
 I had created Data Driven Framework using Selenium and Java with implementation of Page Object Model, this is a design pattern to create Object Repository for web UI elements. Under this model, for each web page in the application, there should be corresponding page class. This Page class will find the WebElements of that web page and also contains Page methods which perform operations on those WebElements. So under this model i divided my framework into 7 main components:
 Page layer - com.qa.pages - each web page will have its own class carrying all objects and methods

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation Sanity Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Login Page est Cases(failed)">
+    <classes>
+      <class name="com.qa.testcases.CheckoutPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="validateCartDetails"/>
+        </methods>
+      </class> <!-- com.qa.testcases.CheckoutPageTest -->
+    </classes>
+  </test> <!-- Login Page est Cases(failed) -->
+</suite> <!-- Failed suite [Automation Sanity Test Suite] -->

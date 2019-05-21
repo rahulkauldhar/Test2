@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Smoke Test Suite">
+
+ <listeners>
+   <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+ </listeners>
+ 
+	<test name="Login Page test Cases">
+		<classes>
+			<class name="com.qa.testcases.LoginPageTest"></class>
+			<class name="com.qa.testcases.SearchPageTest"></class>
+			<class name="com.qa.testcases.CheckoutPageTest"></class>
+			
+		</classes>
+	</test>
+</suite>
